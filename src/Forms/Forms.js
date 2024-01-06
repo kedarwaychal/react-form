@@ -12,7 +12,6 @@ function Forms() {
       const [cards, setCards] = useState([]);
     
       const handleChange = (e) => {
-        // console.log(e.target)
         setFormData({ ...formData, [e.target.name]: e.target.value });
       };
     
